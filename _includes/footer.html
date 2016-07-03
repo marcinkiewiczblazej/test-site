@@ -1,11 +1,11 @@
 <footer class="footer">
 
-  <div class="container">
-    {% if site.github.url %}
-    <img src="{{ "/img/triwawa-logo.svg" | prepend: ( site.github.url ) }}" class="footer-logo"></a>
-    {% else %}
-    <img src="{{ "/img/triwawa-logo.svg" | prepend: ( site.url ) }}" class="footer-logo"></a>
-    {% endif %}
-  </div>
+    <div class="container">
+        {% if site.github.url != null %}
+        <img src="{{ "/img/triwawa-logo.svg" | prepend: site.github.url }}" class="footer-logo"></a>
+        {% else %}
+        <img src="/img/triwawa-logo.svg" class="footer-logo"></a>
+        {% endif %}
+    </div>
 
 </footer>
