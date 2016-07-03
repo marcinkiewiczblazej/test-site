@@ -67,8 +67,14 @@
 }
 
 .footer {
-  background: $blue-color;
+  background: $white-color;
   margin-top: -20px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer-logo {
+  max-height: 100px;
 }
 
 @import "bootstrap-navbar";
