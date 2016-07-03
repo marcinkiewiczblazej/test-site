@@ -11,7 +11,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-left" href="#home">
-                {% if site.github.url %}
+                {% if site.github.url != null %}
                 <img src="{{ "/img/triwawa-logo.svg" | prepend: ( site.github.url ) }}" class="triwawa-logo"></a>
                 {% else %}
                 <img src="{{ "/img/triwawa-logo.svg" | prepend: ( site.url ) }}" class="triwawa-logo"></a>
