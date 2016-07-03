@@ -1,9 +1,9 @@
 @import 'colors';
 
-$bgDefault      : $blue-color;
-$bgHighlight    : $blue-color;
-$colDefault     : $green-color;
-$colHighlight   : $green-color;
+$bgDefault      : $white-color;
+$bgHighlight    : $white-color;
+$colDefault     : $blue-color;
+$colHighlight   : $blue-color;
 
 .navbar-default {
   background-color: $bgDefault;

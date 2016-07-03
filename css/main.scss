@@ -43,16 +43,14 @@
 
 .first-section {
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .post {
-  max-height: 600px;
-  height: 600px;
+  max-height: 700px;
+  height: 700px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-
 }
 
 .post-overlay {
@@ -66,6 +64,11 @@
 .triwawa-logo {
   height: 50px;
   max-height: 50px;
+}
+
+.footer {
+  background: $blue-color;
+  margin-top: -20px;
 }
 
 @import "bootstrap-navbar";
