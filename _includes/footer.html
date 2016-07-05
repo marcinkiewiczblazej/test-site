@@ -1,11 +1,35 @@
 <footer class="footer">
 
     <div class="container">
-        {% if site.github.url != null %}
-        <img src="{{ "/img/triwawa-logo.svg" | prepend: site.github.url }}" class="footer-logo"></a>
-        {% else %}
-        <img src="/img/triwawa-logo.svg" class="footer-logo"></a>
-        {% endif %}
+        <div class="row">
+            <div class="col-xs-2">
+                {% if site.github.url != null %}
+                <img src="{{ "/img/triwawa-logo.svg" | prepend: site.github.url }}" class="footer-logo"></a>
+                {% else %}
+                <img src="/img/triwawa-logo.svg" class="footer-logo"></a>
+                {% endif %}
+            </div>
+            <div class="col-xs-10">
+                <span>
+                    Kontakt:
+                    <ul class="footer-list">
+                        <li>Marcin Fabiszewski</li>
+                        <li>tel. 502-891-169</li>
+                        <li>@ <a href="mailto:triwawa@triwawa.pl">triwawa@triwawa.pl</a></li>
+                        <li>
+                            <a href="https://www.facebook.com/triwarszawa/">
+                                {% if site.github.url != null %}
+                                <img src="{{ "/img/fb-logo.png" | prepend: site.github.url }}" class="footer-logo">
+                                {% else %}
+                                <img src="/img/fb-logo.png" class="footer-logo">
+                                {% endif %}https://www.facebook.com/triwarszawa/
+                            </a>
+                        </li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+
     </div>
 
 </footer>
