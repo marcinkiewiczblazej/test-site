@@ -2,16 +2,21 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-xs-2">
+            <div class="col-xs-3 footer-logo-wrapper">
                 {% if site.github.url != null %}
                 <img src="{{ "/img/triwawa-logo.svg" | prepend: site.github.url }}" class="footer-logo"></a>
                 {% else %}
                 <img src="/img/triwawa-logo.svg" class="footer-logo"></a>
                 {% endif %}
             </div>
-            <div class="col-xs-10">
+            <div class="col-xs-9">
                 <span>
-                    Kontakt:
+                    <b>
+                        Pot i łzy? Czasami! Ale przede wszystkim wspólna pasja i dobra energia, bo to w triathlonie jest najpiękniejsze.
+Chcesz spróbować?
+                    </b>
+                </span><br>
+                <span>
                     <ul class="footer-list">
                         <li>Marcin Fabiszewski</li>
                         <li>tel. 502-891-169</li>
@@ -22,7 +27,7 @@
                                 <img src="{{ "/img/fb-logo.png" | prepend: site.github.url }}" class="footer-logo">
                                 {% else %}
                                 <img src="/img/fb-logo.png" class="footer-logo">
-                                {% endif %}https://www.facebook.com/triwarszawa/
+                                {% endif %}
                             </a>
                         </li>
                     </ul>
