@@ -51,14 +51,20 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .post-overlay {
   background: linear-gradient(rgba($black-color, 0.3), rgba($black-color, 0.3));
-  height: 100%;
   width: 100%;
   padding: 2rem;
   color: $white-color;
+}
+
+.post-content-wrapper {
+  margin-top: auto;
+  padding-bottom: 2rem;
 }
 
 .triwawa-logo {
@@ -68,7 +74,7 @@
 
 .footer {
   background: $white-color;
-  margin-top: -20px;
+  margin-top: 0px;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -85,6 +91,10 @@
 .footer-logo-wrapper {
   padding-left: 0px;
   padding-top: 15px;
+}
+
+h2 {
+  margin-top: 0px;
 }
 
 @import "bootstrap-navbar";
