@@ -86,16 +86,29 @@
 .footer-list {
   list-style-type: none;
   padding-left: 0px;
+  margin-bottom: 0px;
 }
 
 .footer-logo-wrapper {
-  padding-left: 0px;
-  padding-top: 15px;
 }
 
 .nav-align-vertical {
   display: flex;
   align-items: center;
+}
+
+.footer-container {
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-top-text {
+  align-self: flex-start;
+}
+
+.footer-bottom-text {
+  align-self: flex-end;
 }
 
 h2 {
