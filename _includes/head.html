@@ -6,8 +6,18 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/main.css">
+  {% if site.github.url != null %}
+  <link href="{{"css/bootstrap.min.css" | prepend: site.base_site_url }}" rel="stylesheet">
+  {% else %}
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  {% endif %}
+
+  {% if site.github.url != null %}
+  <link href="{{"css/main.css" | prepend: site.base_site_url }}" rel="stylesheet">
+  {% else %}
+  <link href="css/main.css" rel="stylesheet">
+  {% endif %}
+
   <script src="//use.fontawesome.com/ad6f0ce75f.js"></script>
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
