@@ -111,6 +111,29 @@
   align-self: flex-end;
 }
 
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  margin-left: 0 !important;
+  position: absolute;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.navbar-brand-image {
+  height: 30px;
+  margin-top: 10px;
+}
+
+.navbar-link {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
 h2 {
   margin-top: 0px;
 }

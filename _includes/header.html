@@ -10,24 +10,32 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-left" href="#home">
+            <a class="navbar-brand" href="#">
                 {% if site.github.url != null %}
-                <img src="//marcinkiewiczblazej.github.io/test-site/img/triwawa-logo.svg" class="triwawa-logo"></a>
+                <img src="{{"/img/triwawa-logo-1.svg" | prepend: base_site_url }}" class="triwawa-logo">
                 {% else %}
-                <img src="/img/triwawa-logo.svg" class="triwawa-logo"></a>
+                <img src="/img/triwawa-logo-1.svg" class="triwawa-logo">
                 {% endif %}
+            </a>
+            <a class="navbar-left" href="#">
+                {% if site.github.url != null %}
+                <img src="{{"/img/triwawa-logo-napis.svg" | prepend: base_site_url }}" class="navbar-brand-image">
+                {% else %}
+                <img src="/img/triwawa-logo-napis.svg" class="navbar-brand-image">
+                {% endif %}
+            </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right nav-align-vertical">
             	<li>
-                    <a class="page-scroll" href="#about"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+                    <a class="page-scroll navbar-link" href="#about"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/triwarszawa/">
+                    <a href="https://www.facebook.com/triwarszawa/" class="navbar-link">
                         {% if site.github.url != null %}
-                        <img src="//marcinkiewiczblazej.github.io/test-site/img/fb-logo.png" class="footer-logo">
+                        <img src="{{"/img/fb-logo.png" | prepend: base_site_url }}" class="footer-logo">
                         {% else %}
                         <img src="/img/fb-logo.png" class="footer-logo">
                         {% endif %}

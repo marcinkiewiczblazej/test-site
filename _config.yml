@@ -20,3 +20,5 @@ encoding: "utf-8"
 
 # Build settings
 markdown: kramdown
+
+base_site_url: "//marcinkiewiczblazej.github.io/test-site"
