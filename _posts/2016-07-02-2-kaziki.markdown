@@ -3,7 +3,7 @@ layout: default
 title:  "Cześć! Jesteśmy KAZIKI !!"
 date:   2016-07-02 19:10:36 +0000
 categories: jekyll update
-background: /img/kaziki-1.jpg
+background: img/kaziki-1.jpg
 ---
 
 Jesteśmy triathlonowym PROmałżeństwem, które ma wspólny cel – start na Igrzyskach w Tokio 2020. Jako pierwsze małżeństwo w historii! Nasz projekt KAZIKI wspierany jest przez ekipę super ludzi - stowarzyszenie sportowe TriWawa!
