@@ -134,6 +134,15 @@
   padding-bottom: 10px !important;
 }
 
+@font-face {
+    font-family: Cutive;
+    src: url(/fonts/triwawa/Krona_One/KronaOne-Regular.ttf);
+}
+
+div {
+    font-family: Cutive;
+}
+
 h2 {
   margin-top: 0px;
 }
