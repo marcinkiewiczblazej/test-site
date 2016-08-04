@@ -12,14 +12,14 @@
             </button>
             <a class="navbar-brand" href="#">
                 {% if site.github.url != null %}
-                <img src="{{"/img/triwawa-logo-1.svg" | prepend: site.base_site_url }}" class="triwawa-logo">
+                <img src="{{"img/triwawa-logo-1.svg" | prepend: site.base_site_url }}" class="triwawa-logo">
                 {% else %}
                 <img src="/img/triwawa-logo-1.svg" class="triwawa-logo">
                 {% endif %}
             </a>
             <a class="navbar-left" href="#">
                 {% if site.github.url != null %}
-                <img src="{{"/img/triwawa-logo-napis.svg" | prepend: site.base_site_url }}" class="navbar-brand-image">
+                <img src="{{"img/triwawa-logo-napis.svg" | prepend: site.base_site_url }}" class="navbar-brand-image">
                 {% else %}
                 <img src="/img/triwawa-logo-napis.svg" class="navbar-brand-image">
                 {% endif %}
@@ -35,7 +35,7 @@
                 <li>
                     <a href="https://www.facebook.com/triwarszawa/" class="navbar-link">
                         {% if site.github.url != null %}
-                        <img src="{{"/img/fb-logo.png" | prepend: site.base_site_url }}" class="footer-logo">
+                        <img src="{{"img/fb-logo.png" | prepend: site.base_site_url }}" class="footer-logo">
                         {% else %}
                         <img src="/img/fb-logo.png" class="footer-logo">
                         {% endif %}
