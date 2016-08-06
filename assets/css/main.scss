@@ -141,11 +141,17 @@
 }
 
 div {
-    font-family: MarcellusSC;
+  font-family: MarcellusSC, serif;
+  font-size: 1.8rem;
 }
 
 h2 {
   margin-top: 0px;
+  font-size: 4rem;
+}
+
+.nav-envelope {
+  font-size: 30px !important;
 }
 
 @import "bootstrap-navbar";
